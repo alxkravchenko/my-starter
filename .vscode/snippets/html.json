@@ -1,0 +1,34 @@
+{
+    "svguse": {
+        "scope": "html",
+        "prefix": "sqico",
+        "body": [
+          "<svg>",
+          "    <use xlink:href=\"assets/images/sprite/sprite.svg#$2\"></use>",
+          "</svg>"
+        ],
+        "description": "Snippet for use svg sprites"
+    },
+    "picture": {
+        "prefix": "sqpic",
+        "body": [
+          "<picture>",
+          "    <source srcset=\"assets/images/$1.webp\" type=\"image/webp\">",
+          "    <img loading=\"lazy\" src=\"assets/images/$1.$2\" class=\"image\" alt=\"$3\">",
+          "</picture>"
+        ],
+        "description": "Snippet for basic logo structure"
+    },
+    "basicswiper": {
+        "prefix": "sqswiper",
+        "body": [
+          "<div class=\"swiper $1\">",
+          "    <div class=\"swiper-wrapper\">",
+          "        <div class=\"swiper-slide\">",
+          "        </div>",
+          "     </div>",
+          "</div>"
+        ],
+        "description": "Snippet for basic swiper structure"
+      }
+}

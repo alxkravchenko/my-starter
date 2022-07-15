@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <meta name="description" content="Awesome site">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @include('partials/header/header.html')
+        <main class="content">
+            <div class="swiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="assets/images/global/test.webp" type="image/webp">
+                            <img loading="lazy" src="assets/images/global/test.jpg" class="image" alt="test">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="assets/images/global/test.webp" type="image/webp">
+                            <img loading="lazy" src="assets/images/global/test.jpg" class="image" alt="test">
+                        </picture>
+                    </div>
+                 </div>
+            </div>
+        </main>
+        @include('partials/footer/footer.html')
+    </div>
+    <script src="./assets/js/main.min.js"></script>
+</body>
+
+</html>
