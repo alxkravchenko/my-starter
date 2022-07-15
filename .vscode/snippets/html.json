@@ -1,7 +1,7 @@
 {
     "svguse": {
         "scope": "html",
-        "prefix": "sqico",
+        "prefix": "qq-ico",
         "body": [
           "<svg>",
           "    <use xlink:href=\"assets/images/sprite/sprite.svg#$2\"></use>",
@@ -10,7 +10,7 @@
         "description": "Snippet for use svg sprites"
     },
     "picture": {
-        "prefix": "sqpic",
+        "prefix": "qq-pic",
         "body": [
           "<picture>",
           "    <source srcset=\"assets/images/$1.webp\" type=\"image/webp\">",
@@ -20,7 +20,7 @@
         "description": "Snippet for basic logo structure"
     },
     "basicswiper": {
-        "prefix": "sqswiper",
+        "prefix": "qq-swiper",
         "body": [
           "<div class=\"swiper $1\">",
           "    <div class=\"swiper-wrapper\">",
